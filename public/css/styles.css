@@ -11,6 +11,10 @@
     color: white;
     
 }
+.nav-text{
+    font-size: 1.5rem;
+
+}
 .nav-text:hover{
     color: #fff176;
 }
@@ -49,11 +53,12 @@
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900;
+    font-size: 3rem;
 }
 .message-container{
-    margin-left: 300px;
+    margin-left: 250px;
     margin-top: 90px;
-    width: 600px;
+    width: 700px;
     text-align: center;
     
     /* padding: 3% 7%; */
@@ -70,9 +75,9 @@
 }
 
 .write{
-    width: 800px;
+    width: 900px;
     height: 50px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     /* margin-top: 10px; */
     margin-left: 300px;
     text-align: center;
@@ -102,11 +107,11 @@
 
 }
 .vision-text{
-    padding-top: 100px;
-    margin-left: 320px;
-    font-size: 2rem;
+    padding-top: 50px;
+    margin-left: 200px;
+    font-size: 2.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 900px;
+    width: 1100px;
     text-align: center;
 }
 .purpose-header{
@@ -130,9 +135,9 @@
 .purpose-text{
     padding-top: 50px;
     margin-left: 400px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 800px;
+    width: 900px;
     text-align: center;
 }
 .mb-2{
@@ -188,7 +193,7 @@
 .social{
     height: 20px;
     width: 20px;
-    margin: 8px;
+    margin: 15px;
     color: #C49A48;
     
 }
@@ -290,18 +295,34 @@ li a{
 }
 
 .partner-text{
-    width: 800px;
+    width: 900px;
     text-align: justify;
     margin-top: 80px;
-    margin-left: 20%;
+    margin-left: 10%;
+}
+.offering-text{
+    border: 3px solid grey;
+    border-radius: 15px;
+    width: 800px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 30px;
+    text-align: center;
+    
+  
+}
+.offering-header{
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+    color: #07358A;
 }
 .offerings-tithes{
-    margin-left: 7%;
-    padding-top: 2%;
     overflow-x: hidden;
 }
-.offering-box{
-    margin-left: 17%;
+.offering-text1{
+    opacity: 60%;
 }
 .partner{
     margin-left: 7%;
@@ -320,20 +341,22 @@ body{
     color: red;
     margin-bottom: 20px;
 }
+.partner-header{
+    color: #07358A;
+}
 h6{
     font-weight: 550;
+
 }
 .download{
     margin: 10px;
 }
-.offering-card{
-    width:50rem; 
-    margin-top: 50px; 
-    margin-bottom: 100px;
-   
+
+#footer{
+    font-size: 1.5rem;
 }
 
-@media (max-width:1028px){
+@media (max-width:900px) and (max-width:500px){
     
     #navigate,#appointment,#leadership,#offerings-tithes,#partner{
         text-align: center;
@@ -358,18 +381,19 @@ h6{
         text-align: center;
 
     }
-    .offerings-tithes{
-        margin-left: 0%;
-    }
-    .offering-box{
-        margin: auto;
-    }
+    
     .about-text-main{
         width: 800px;
         text-align: justify;
         margin: auto;
     }
+    .offering-text{
+        font-size: 2rem;
 
+    }
+    .offering-text1{
+        opacity: 60%;
+    }
     .partner-text{
         width: 700px;
         overflow-x: hidden;
@@ -383,11 +407,7 @@ h6{
         text-align: center;
         margin: auto;
     }
-    .offering-card{
-        width: 25rem;
-        overflow-x: hidden;
-        margin:auto
-    }
+   
     .mission{
         /* text-align: center; */
      
