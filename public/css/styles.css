@@ -391,7 +391,12 @@ h6{
     }
   .message-container{
     overflow-x: hidden;
+    width: 700px;
+    margin: auto;
      
+  }
+  .message{
+      font-size: 3rem;
   }
 
     .appointment-text-box{
@@ -476,7 +481,7 @@ h6{
 
         /* text-align: center; */
         padding-top: 30px;
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         width: 400px;
     }
     .vision-header{
