@@ -12,8 +12,8 @@
     
 }
 .theicon{
-    height: 70px;
-    width: 70px;
+    height: 100px;
+    width: 100px;
 }
 .nav-text{
     font-size: 1.5rem;
@@ -163,12 +163,12 @@
 
 }
 .about-text{
-    padding: 3% 7%;
+   
     
     font-weight: 900;
     font-family: sans-serif;
     font-size: 3rem;
-    ;
+    margin-left: 40%;
     
 }
 
@@ -371,6 +371,7 @@ h6{
 
 #footer{
     font-size: 1.5rem;
+    margin-top: -10px;
 }
 
 @media (max-width:1200px) and (max-width:800px){
@@ -394,6 +395,9 @@ h6{
     width: 700px;
     margin: auto;
      
+  }
+  .about-text{
+      margin-left:20%
   }
   .message{
       font-size: 3rem;
