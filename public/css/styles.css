@@ -11,6 +11,10 @@
     color: white;
     
 }
+.theicon{
+    height: 70px;
+    width: 70px;
+}
 .nav-text{
     font-size: 1.5rem;
 
@@ -56,13 +60,13 @@
     font-size: 3rem;
 }
 .message-container{
-    margin-left: 250px;
+    /* margin-left: 250px; */
+    margin: auto;
     margin-top: 90px;
     width: 700px;
     text-align: center;
     
-    /* padding: 3% 7%; */
-    border-radius: 30px;
+   
         
 }
 .download-button{
@@ -79,7 +83,7 @@
     height: 50px;
     font-size: 2.5rem;
     /* margin-top: 10px; */
-    margin-left: 300px;
+    margin: auto;
     text-align: center;
     color: #fff176;
     font-weight: 400;
@@ -108,7 +112,7 @@
 }
 .vision-text{
     padding-top: 50px;
-    margin-left: 200px;
+    margin: auto;
     font-size: 2.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 1100px;
@@ -134,7 +138,7 @@
 
 .purpose-text{
     padding-top: 50px;
-    margin-left: 400px;
+   margin: auto;
     font-size: 2.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 900px;
@@ -155,14 +159,17 @@
 		background-position: center;
         height: 400px;
         color: #fff176;
+       margin: auto;
 
 }
 .about-text{
-    padding-left: 42%;
-    /* padding-top: 10%; */
+    padding: 3% 7%;
+    
     font-weight: 900;
     font-family: sans-serif;
     font-size: 3rem;
+    ;
+    
 }
 
 .leader-image{
@@ -172,7 +179,9 @@
     margin-top: 50px;
     
 }
-
+.about-prem{
+    margin: auto;
+}
 .leader-header{
     
     margin-top: 30px;
@@ -180,12 +189,15 @@
     font-weight: 900;
     font-size: 1.5rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
+    
 }
 .leader-title{
     font-weight: 400;
+    margin-bottom: 20px;
+   
 }
 .about-container{
-    margin-left: 25%;
+    
     overflow-x: hidden;
 
 }
@@ -259,6 +271,10 @@ li a{
     color: #07358A ;
     margin-top: 1%;
 }
+.appointment-text-box{
+    text-align: center;
+    padding: 10px;
+}
 
 
 
@@ -288,6 +304,7 @@ li a{
     width: 800px;
     text-align: justify;
     overflow-x: hidden; 
+    margin: auto;
     
 }
 .navbar-toggler{
@@ -356,36 +373,38 @@ h6{
     font-size: 1.5rem;
 }
 
-@media (max-width:900px) and (max-width:500px){
+@media (max-width:1200px) and (max-width:800px){
     
     #navigate,#appointment,#leadership,#offerings-tithes,#partner{
-        text-align: center;
-        /* margin: auto; */
+       
+      
         
     }
     .container-fluid{
-        /* padding: 3% 7%; */
-        text-align: center;
-        
+     margin: auto;
+     overflow-x: hidden;
     
     }
-
-    .image{margin-bottom: 20px;}
-
-    .about-container{
-        margin-left: 5%;
-        padding-right: 5%;
+    .navbar{
+        margin: auto;
+        overflow-x: hidden;
     }
-    .about-text{
-        padding-left: 0%;
-        text-align: center;
+  .message-container{
+    overflow-x: hidden;
+     
+  }
 
+    .appointment-text-box{
+        text-align: center;
+        overflow-x: hidden;
     }
     
     .about-text-main{
         width: 800px;
         text-align: justify;
-        margin: auto;
+       padding: 10px;
+       overflow-x: hidden;
+
     }
     .offering-text{
         font-size: 2rem;
@@ -413,12 +432,13 @@ h6{
      
         margin-bottom: 20px;
         text-align: center;
-        
+        overflow-x: hidden;
         
         
     }
     .purpose{
         text-align: center;
+        overflow-x: hidden; 
     }
     .purpose-header
     {
@@ -449,6 +469,7 @@ h6{
         margin-top: 0px;
         /* margin: 15px; */
         text-align: center;
+        overflow-x: hidden;
     }
     .vision-text{
         margin:auto;
@@ -466,6 +487,7 @@ h6{
         margin-top: 90px;
         /* width: 400px; */
         text-align: center;
+        overflow-x: hidden;
         
         /* padding: 3% 7%; */
         /* border-radius: 30px; */
