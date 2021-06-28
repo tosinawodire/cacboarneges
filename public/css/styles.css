@@ -246,7 +246,7 @@ div.polaroid {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
-        height: 400px;
+        height: 600px;
         color: #fff176;
        margin: auto;
 
@@ -257,7 +257,9 @@ div.polaroid {
     font-weight: 900;
     font-family: sans-serif;
     font-size: 3rem;
-    margin-left: 40%;
+    /* margin-left: 40%; */
+    margin: auto;
+    text-align: center;
     
 }
 
@@ -328,8 +330,8 @@ li a{
     font-family: monospace;
     font-weight: 800;
 }
-.service{
-    padding: 1% 7%;
+.service{padding-top:1% ;
+    /* padding: 1% 7%; */
     
 }
 .service-header{
@@ -338,7 +340,7 @@ li a{
     color: #07358A;
 }
 .fellowship-header{
-    padding: 1% 7%;
+    /* padding: 1% 7%; */
     color: #07358A;
     
 }
@@ -361,7 +363,7 @@ li a{
 }
 
 .appointment{
-    padding: 0% 7%;
+    /* padding: 0% 7%; */
     font-family: Georgia, 'Times New Roman', Times, serif;
     overflow-x: hidden;
 }
@@ -410,12 +412,7 @@ li a{
     color: white;
 }
 
-.partner-text{
-    width: 900px;
-    text-align: justify;
-    margin-top: 80px;
-    margin-left: 10%;
-}
+
 .offering-text{
     border: 3px solid grey;
     border-radius: 15px;
@@ -431,7 +428,7 @@ li a{
 }
 .offering-header{
     margin-top: 2%;
-    margin-left: 7%;
+    /* margin-left: 7%; */
     margin-bottom: 5%;
     color: #07358A;
 }
@@ -442,10 +439,21 @@ li a{
     opacity: 60%;
 }
 .partner{
-    margin-left: 7%;
+    /* margin-left: 7%; */
     padding-top: 2%;
     line-height: 3rem;
     font-size: 1.2rem;
+    margin: auto;
+ 
+}
+.partner-text{
+    width: 800px;
+    text-align: justify;
+    margin-top: 80px;
+    /* margin-left: 10%; */
+    overflow-x: hidden;
+   
+    margin: auto;
 }
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -453,13 +461,18 @@ body{
 
 .partner-text1{
     margin-bottom: 20px;
+    
 }
 .partner-text2{
     color: red;
     margin-bottom: 20px;
+    
+    
 }
 .partner-header{
     color: #07358A;
+    padding-bottom: 2%;
+    
 }
 h6{
     font-weight: 550;
@@ -479,10 +492,23 @@ h6{
          width: 250px;
         height: 100px;
     }
-}
-    
 
-@media (max-width:1200px) and (max-width:700px) and (max-width:600px) and (max-width:800px) and (max-width:900px){
+    .theicon{
+        height: 100px;
+        width: 100px;
+    }
+}
+@media (min-width:500px)   {
+
+
+    .theicon{
+        height: 100px;
+        width: 100px;
+    }
+}
+     
+
+@media (max-width:1200px) {
     
     #navigate,#appointment,#leadership,#offerings-tithes,#partner{      
       
@@ -490,8 +516,12 @@ h6{
     }
     img{
         width: 400x;
-        height: 280px;
+        height: 210px;
        
+    }
+    .theicon{
+        height: 100px;
+        width: 100px;
     }
     .container-fluid{
      margin: auto;
@@ -513,7 +543,8 @@ h6{
      
   }
   .about-text{
-      margin-left:20%
+     margin: auto;
+     text-align: center;
   }
   .message{
       font-size: 3rem;
@@ -522,6 +553,8 @@ h6{
     .appointment-text-box{
         text-align: center;
         overflow-x: hidden;
+       
+        
     }
     
     .about-text-main{
@@ -543,12 +576,13 @@ h6{
         overflow-x: hidden;
         /* padding: auto; */
         padding-right: 5%;
+        margin: auto;
         
     }
     .partner{
         /* margin-left: 5%; */
         overflow-x: hidden;
-        text-align: center;
+        
         margin: auto;
     }
    
@@ -579,7 +613,7 @@ h6{
     .write{
         width: 500px;
         /* text-align: center; */
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         margin: auto;
         line-height: 1.5;
     }
