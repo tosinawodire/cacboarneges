@@ -498,22 +498,11 @@ h6{
         width: 100px;
     }
 }
-@media (min-width:500px)   {
 
-
-    .theicon{
-        height: 100px;
-        width: 100px;
-    }
-}
-     
 
 @media (max-width:1200px) {
     
-    #navigate,#appointment,#leadership,#offerings-tithes,#partner{      
-      
-        
-    }
+  
     img{
         width: 400x;
         height: 210px;
