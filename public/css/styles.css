@@ -1,3 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px;
+    background:#eee;
+    user-select: none;
+}
+[type=radio]{
+    display: none;
+}
+
+#slider{
+    height: 35vw;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+      
+}
+#slider label{
+    margin: auto;
+    width: 60%;
+    height: 70%;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    transition:transform 0.4s ease;
+}
+
+#s1:checked ~ #slide4, #slide2:checked ~ #slide5,
+#s3:checked ~ #slide1, #slide4:checked ~ #slide2,
+#s5:checked ~ #slide3{
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+    transform: translate3d(-30%,0,-200px);
+}
+
+#s1:checked ~ #slide5, #slide2:checked ~ #slide1,
+#s3:checked ~ #slide2, #slide4:checked ~ #slide3,
+#s5:checked ~ #slide4{
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0, 0,0,-2);
+    transform: translate3d(-15%,0,-100px);
+
+}
+
+#s1:checked ~ #slide1, #slide2:checked ~ #slide2,
+#s3:checked ~ #slide2, #slide4:checked ~ #slide4,
+#s5:checked ~ #slide5 {
+    box-shadow: 0 13px 25px 0 rgba(0,0,0,.3), 0 11px 7px 0 rgba(0, 0,0,-19);
+    transform: translate3d(0,0,0);
+    
+}
+
+#s1:checked ~ #slide2, #slide2:checked ~ #slide3,
+#s3:checked ~ #slide3, #slide4:checked ~ #slide5,
+#s5:checked ~ #slide1 {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,.3), 0 2px 2px 0 rgba(0, 0,0,-2);
+    transform: translate3d(-15%,0,-100px);
+    
+}
+
+#s1:checked ~ #slide3, #slide2:checked ~ #slide4,
+#s3:checked ~ #slide5, #slide4:checked ~ #slide1,
+#s5:checked ~ #slide1    {
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.37);
+    transform: translate3d(30%,0,-200px);
+    
+}
+.slide-container{
+ padding-bottom: 2%;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+.slide-text{
+    color: #C49A48;
+    
+}
+
+
 .navigate{
         background-image: url("/images/mission.jpg") ;
 		background-repeat: no-repeat;
@@ -9,10 +91,10 @@
 }
 div.polaroid {
     /* width: 80%; */
-    /* background-color: white; */
+    /* background-color: rgb(202, 202, 202); */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 25px;
-    /* border-radius: 100%; */
+    border-radius: 100%;
   }
 .nav-link{
     color: white;
@@ -223,18 +305,28 @@ li a{
     color: white;
 }
 #projects{
-    padding: 7% 17%;
+    /* padding: 7% 17%; */
     text-align: center;
-    color: white;
-    background-color: #3f598a;
+    
+    
+    margin-bottom: 1%;
+
 }
-.carousel-item{
-    width: 600px;
-    height: 400px;
+.carousel img{
+    /* width:auto; */
+    top: 0;
+    left: 0;
+    min-width: 70%;
+    height: 500px;
+    /* max-height: 650px; */
+    width: auto;
 
 }
 .footnote{
-    margin: 10px;
+    padding: 1%;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-weight: 800;
 }
 .service{
     padding: 1% 7%;
@@ -381,17 +473,33 @@ h6{
     font-size: 1.5rem;
     margin-top: -10px;
 }
+@media (max-width:500px)   {
 
-@media (max-width:1200px) and (max-width:800px){
+    img{
+         width: 250px;
+        height: 100px;
+    }
+}
     
-    #navigate,#appointment,#leadership,#offerings-tithes,#partner{
-       
+
+@media (max-width:1200px) and (max-width:700px) and (max-width:600px) and (max-width:800px) and (max-width:900px){
+    
+    #navigate,#appointment,#leadership,#offerings-tithes,#partner{      
       
         
+    }
+    img{
+        width: 400x;
+        height: 280px;
+       
     }
     .container-fluid{
      margin: auto;
      overflow-x: hidden;
+    
+    }
+    .nav-text{
+        font-size: 3rem;
     
     }
     .navbar{
