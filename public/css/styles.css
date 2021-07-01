@@ -547,7 +547,7 @@ h6{
     }
     
     .about-text-main{
-        width: 600px;
+        width: 700px;
         text-align: justify;
        padding: 10px;
        overflow-x: hidden;
@@ -561,7 +561,7 @@ h6{
         opacity: 60%;
     }
     .partner-text{
-        width: 600px;
+        width: 700px;
         overflow-x: hidden;
         /* padding: auto; */
         padding-right: 5%;
