@@ -81,7 +81,7 @@ body{
 
 
 .navigate{
-        background-image: url("/images/mission.jpg") ;
+        background-image: url("/images/mission-new.jpg") ;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
@@ -191,7 +191,7 @@ div.polaroid {
 
 }
 .vision{
-        background-image: url("/images/vision.jpg") ;
+        background-image: url("/images/vision-new.jpg") ;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: center;
@@ -216,7 +216,7 @@ div.polaroid {
 
 }
 .purpose{
-    background-image: url("/images/devotion.jpg") ;
+    background-image: url("/images/devotion-new.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
