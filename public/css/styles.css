@@ -88,6 +88,7 @@ body{
         
         height: 740px;
        overflow-x: hidden;
+       opacity: 90%;
 }
 div.polaroid {
     /* width: 80%; */
@@ -508,6 +509,7 @@ h6{
         height: 210px;
        
     }
+   
     .theicon{
         height: 100px;
         width: 100px;
